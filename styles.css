@@ -1,0 +1,85 @@
+body {
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px; /* Space between the image and the text */
+}
+
+.sidebar {
+    padding: 20px;
+    background-color: #F7FAFC;
+}
+
+.about {
+    background-color: #E2E8F0;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.social-media h3, .archives h3 {
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.social-media ul, .archives ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li a, .archives li a {
+    color: #4299E1;
+    text-decoration: none;
+}
+
+.social-media li, .archives li {
+    margin-bottom: 5px;
+}
+
+main article h2 {
+    font-size: 32px;
+    color: #48BB78;
+}
+
+main article em {
+    color: #718096;
+}
+
+main img {
+    margin: 15px;
+}
+
+footer {
+    background-color: #2C5282;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    grid-column: 1 / -1;
+}
